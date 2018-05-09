@@ -1,0 +1,101 @@
+html {
+  padding: 30px; }
+
+.boton, .boton-rojo, .boton-grande, .boton-borde {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ccc;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #333; }
+
+.boton-rojo {
+  background: red; }
+
+.boton-grande {
+  font-size: 20px;
+  padding: 20px 50px; }
+
+.boton-borde {
+  background: none;
+  color: rebeccapurple;
+  border: solid 2px rebeccapurple; }
+
+.caja1, .caja2 {
+  height: 100px;
+  width: 100px;
+  background: green;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+.caja2 {
+  -ms-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -o-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px; }
+
+.circulo1 {
+  width: 400px;
+  height: 400px;
+  background: red;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block; }
+
+.circulo2 {
+  width: 100px;
+  height: 100px;
+  background: cyan;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block; }
+
+.boton1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background: #6464c8;
+  padding: 30px 200px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  display: inline-block;
+  border: 1px blue solid; }
+  .boton1:hover {
+    background: #3b3ba5;
+    transform: scale(1.2); }
+
+.boton2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  background: blue;
+  padding: 5px 10px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  display: inline-block;
+  border: 1px red solid; }
+  .boton2:hover {
+    background: #0000b3;
+    transform: scale(1.2); }
+
+/*# sourceMappingURL=style.css.map */
